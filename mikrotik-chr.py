@@ -3,7 +3,7 @@ from netmiko import ConnectHandler, NetmikoTimeoutException, NetmikoAuthenticati
 # Definisikan perangkat
 mikrotik_router = {
     'device_type': 'mikrotik_routeros',
-    'host': '192.168.1.1',
+    'host': '192.168.56.1',
     'username': 'admin',
     'password': 'admin',
     'port': 22,
